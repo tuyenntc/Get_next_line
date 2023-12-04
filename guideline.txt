@@ -1,0 +1,14 @@
+The aim of this project is to make you code a function that returns a line, read from a file descriptor.
+You will understand how files are opened, read and closed in an OS,
+and how they are interpreted by a programming language for further analysis.
+This task is crucial to understand for a future programmer since much of the time is based
+on manipulating files for data management and persistence.
+This project consists of coding a function that returns one line at a time from a text file.
+read from 1 file descriptor, 1 line at a time
+need to return the line that was read and return NULL if there is no line or there is error
+should work as expected reading from a file or from standard input
+return line should include a null terminator \n character, unless it is the end of the file and the line does not end with \n
+the get_next_line.h should include at least the get_next_line() function
+all additional functions must be included in the get_next_line_utils.c file, and the libft is not allowed
+to define the buffer size for read(), add the option to the compiled file -D BUFFER_SIZE=[SIZE]
+external functions: read(), malloc(), free()
